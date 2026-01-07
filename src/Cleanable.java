@@ -1,0 +1,3 @@
+interface Cleanable {
+    void clean();
+}

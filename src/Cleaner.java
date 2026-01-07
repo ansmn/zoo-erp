@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class Cleaner extends Staff{
+    public Cleaner (String name) {
+        super(name);
+    }
 
-public class Cleaner {
+    public void clean(Cleanable animal) {
+        animal.clean();
+    }
 }
